@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:wisata_mobile_5/materimodulscreens/mystatefulwidget.dart';
+import 'package:wisata_mobile_5/materimodulscreens/page/aluncianjur.dart';
+import 'package:wisata_mobile_5/materimodulscreens/page/citambur.dart';
+import 'package:wisata_mobile_5/materimodulscreens/page/telagawarna.dart';
 import 'package:wisata_mobile_5/materimodulscreens/page/thenice.dart';
 
 import 'package:wisata_mobile_5/screens/landingpage.dart';
@@ -16,7 +19,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Thenice(),
+      home: Aluncianjur(),
     );
   }
 }
